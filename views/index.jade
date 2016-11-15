@@ -1,5 +1,12 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  h1 Timestamp Microservice
+  p Example usage
+  ul
+    li.example https://timestamp-ms.herokuapp.com/September 23 1991
+    li.example https://timestamp-ms.herokuapp.com/685584000
+  p Example output
+    ul
+      li.example { "unix": 685584000, "natural": "September 23, 1991" } 
+
